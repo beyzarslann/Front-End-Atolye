@@ -1,0 +1,35 @@
+DİSPLAY
+
+CSS'deki display özelliği, bir HTML elemanının ekranda nasıl görüneceğini ve yerleşeceğini belirler. En yaygın kullanılan değerleri şunlardır:
+
+1. block
+Eleman yeni bir satıra geçer ve tüm genişliği kaplar.
+Örnek: <div>, <p>
+
+display: block;
+
+2. inline
+Eleman aynı satırda kalır ve sadece içeriği kadar yer kaplar.
+Örnek: <span>, <a>
+
+display: inline;
+
+3. inline-block
+Eleman aynı satırda kalır, ama block gibi genişlik ve yükseklik ayarlanabilir.
+
+display: inline-block;
+
+4. flex
+Elemanları esnek bir şekilde düzenlemek için kullanılır (satır/sütun).
+
+display: flex;
+
+5. grid
+Elemanları ızgara düzeniyle yerleştirmek için kullanılır.
+
+display: grid;
+
+6. none
+Eleman gizlenir ve sayfada hiç yer kaplamaz.
+
+display: none;
